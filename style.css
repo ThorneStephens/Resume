@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.experience, .education, .certification, .skills, .strengths {
+    margin-bottom: 20px;
+}
+
+/* Sections */
+.experience, .education, .certification, .skills, .strengths {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Technical Skills list */
+.skills ul {
+    columns: 2;
+}
+
+.skills ul li {
+    margin-bottom: 3px;
+}
+
+/* Additional Strengths list */
+.strengths ul {
+    columns: 2;
+}
+
+.strengths ul li {
+    margin-bottom: 3px;
+}
+
+/* References */
+body p:last-child {
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+}
